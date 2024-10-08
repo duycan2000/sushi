@@ -1,0 +1,5 @@
+// @mixin mixin-name($parameter, ....){property: $parameter}
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
